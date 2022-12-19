@@ -1,1 +1,2 @@
 # BITCOIN-BOT
+This code will continuously check the current mining statistics and the current price of bitcoin, and it will only trade signals that return profit. If the mining pool is not currently mining, it will start mining. If the mining pool is mining and the profit is above a threshold, it will place a buy order for 1 BTC and then a sell order for all BTC if the balance is greater than 0. If the balance is 0, it will stop mining. This process will repeat every hour.
